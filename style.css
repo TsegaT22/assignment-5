@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+section{
+    margin: auto;
+    padding: 10px;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+}
+figure {
+    cursor: pointer;
+}
+figure img{
+    width: 100px;
+    height: 100px;
+    border: 3px solid transparent;
+    transition: border 0.3s;
+}
+figure img.selected{
+    border: 3px solid red;
+}
+#computer-image {
+    width: 100px;
+    height: 100px;
+}

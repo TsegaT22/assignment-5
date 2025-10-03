@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>ROCK PAPER SCISSORS GAME. GO!</h1>
+
+    <section id="user-throw">
+        <h2>Your Throw:</h2>
+        <div class="choices">
+            <figure>
+                <img src="game.PNG/rock.PNG" alt="rock image" data-choice="rock">
+            </figure>
+            <figure>
+                <img src="game.PNG/paper.PNG" alt="paper image" data-choice="paper">
+                
+            </figure>
+            <figure>
+                <img src="game.PNG/scissors.PNG" alt="scissors image" data-choice="scissors">
+                
+            </figure>
+        </div>
+    </section>
+
+    <section id="computer-throw">
+        <h2>Computer Throw:</h2>
+        <div class="computer-choice">
+            <img id="computer-image" src="game.PNG/question-mark.PNG" alt="Thinking">
+        </div>
+    </section>
+
+    <section id="outcome">
+        <h2>Result</h2>
+        <p id="result-text">Make your move!</p>
+    </section>
+
+    <section id="scoreboard">
+        <h2>Score</h2>
+        <p>Wins: <span id="wins">0</span></p>
+        <p>Losses: <span id="losses">0</span></p>
+        <p>Ties: <span id="ties">0</span></p>
+        <button id="reset">Play Again!</button>
+    </section>
+
+</body>
+</html>
